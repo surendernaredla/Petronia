@@ -1,0 +1,18 @@
+@import "scss/initials/all";
+@import "scss/mixins/all";
+
+
+
+
+@for $i from 1 through 12 {
+	.col-#{$i} {
+		width: $i * 8.333333333333333%;
+	}
+}
+.box {
+	@include prefix(transform, rotate(50deg), moz webkit ms);
+}
+.gray {
+	@include prefix(transform, rotate(50deg), moz webkit ms);
+	@include prefix(transition, all 0.3s ease-in-out, moz webkit ms);
+}
