@@ -1,2 +1,2 @@
 # SASS
-Flat Design based on ** Flexbox **
+Flat Design based on **Flexbox**
