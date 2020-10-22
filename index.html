@@ -1,260 +1,62 @@
 <!DOCTYPE html>
-<html lang="en" class="navbar-fixed-top">
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-	<head>
-<!-- Primary Meta Tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="title" content="Documentation">
-<meta name="description" content="Documentation">
-<meta name="author" content="Surendar Naredla">
-<meta name="generator" content="Jekyll v4.1.0">
+.bgimg {
+  background: #6c5ce7 !important;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
 
-<title>Documentation - Petronia</title>
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
 
-<link rel="canonical" href="http://localhost:8001/">
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 
-<!-- Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost:8001/">
-<meta property="og:title" content="Documentation">
-<meta property="og:description" content="Write an awesome description for your new site here.">
-<meta property="og:image" content="http://localhost:8001/docs/images/brand/favicon.png">
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://localhost:8001/">
-<meta property="twitter:title" content="Documentation">
-<meta property="twitter:description" content="Write an awesome description for your new site here.">
-<meta property="twitter:image" content="http://localhost:8001/docs/images/brand/favicon.png">
-
-<!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
-<link rel="manifest" href="/assets/images/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
-<meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-<!-- Petronia CSS -->
-<link rel="stylesheet" href="/css/petronia.css">
-
-<!-- Petronia Custom Docs CSS -->
-<link rel="stylesheet" href="/assets/css/petronia-docs.css">
-
-
-</head>
-
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
 <body>
 
-<nav class="navbar as-dark as-fixed-top bg-primary navbar-collapse" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <a href="/" class="navbar-brand">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="20px" height="auto" viewBox="0 0 356 512" style="enable-background:new 0 0 356 512;" xml:space="preserve">
-<path id="XMLID_32_" style="fill:#ffffff;" d="M178-0.1C83.3-0.1,6.2,76.9,6.2,171.6c0,0,0,0,0,0.1v340.4L120,333.3
-	c18.1,6.5,37.7,10.1,58,10.1c94.7,0,171.8-77.1,171.8-171.8S272.7-0.1,178-0.1z M178,294.3c-67.7,0-122.7-55-122.7-122.7
-    S110.3,49,178,49c51.1,0,95.1,31.5,113.5,76l36.8,21.3l-28,16.2c0.2,3,0.4,6.1,0.4,9.2C300.7,239.3,245.7,294.3,178,294.3z"/>
-</svg> <span>etronia</span>
-        </a>
-        <button class="navbar-toggle" type="button"><span class="fa fa-bars"></span></button>
-            
-        <div class="navbar-menu">
-            <ul class="navbar-left">
-                <li><a class="navbar-link" href="/">Home</a></li>
-                <li><a class="navbar-link" href="/getting-started/">Documentation</a></li>
-                <li><a class="navbar-link" href="#" disabled>Example</a></li>
-                <li class="dropdown">
-                <a class="navbar-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                    Dropdown button <span class="fa fa-angle-down"></span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a href="#" class="dropdown-item">
-                        Overview
-                        </a>
-                        <a href="#" class="dropdown-item">
-                        Modifiers
-                        </a>
-                        <a href="#" class="dropdown-item">
-                        Grid
-                        </a>
-                        <a href="#" class="dropdown-item">
-                        Form
-                        </a>
-                        <a href="#" class="dropdown-item">
-                        Elements
-                        </a>
-                        <a href="#" class="dropdown-item">
-                        Components
-                        </a>
-                        <a href="#" class="dropdown-item">
-                        Layout
-                        </a>
-                        <hr>
-                        <a href="#" class="dropdown-item">
-                        More
-                        </a>
-                    </div>
-                </li>
-            </ul>
-            <ul class="navbar-right">
-                <li><a class="navbar-link" href="#">Open</a></li>
-                <li><a class="navbar-link" href="#">Github</a></li>
-                <li class="buttons">
-                    <a href="#" class="button as-tint-primary" style="height: 36px;"><span class="fa fa-gift"></span></a>
-                    <a href="#" class="button as-warning">Download</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>  
-<main>
-    <div class="wrapper as-items-center as-cover-full" style="position: relative;padding: 6rem 0 8rem;">
-  <div class="container">
-    <div class="columns as-justify-center">
-      <div class="column sm-6 text-center">
-        <div class="brand-intro">
-          <img src="./assets/images/logos/logo-fpicon.svg" alt="">
-        </div>
-        <h3 class="title-large">Petronia</h3>
-        <p class="subtitle">A Modern CSS Framework for faster and easier web development.</p>
-        <div class="bd-snippet bd-intro">
-          <div class="bd-action">
-            <button class="button as-tint-primary as-small bd-copy" data-tooltip="Copy the source">Copy</button>
-          </div>
-          <figure class="highlight"><pre><code class="language-sh" data-lang="sh">npm <span class="nb">install </span>petronia</code></pre></figure></div>
-        <div class="buttons">
-          <button class="button as-outline-secondary as-large">Get Started</button>
-          <button class="button as-primary as-large">Download</button>
-        </div>
-      </div>
-    </div>
+<div class="bgimg">
+  <div class="topleft">
+    <p>Logo</p>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>35 days left</p>
+  </div>
+  <div class="bottomleft">
+    <p>Some text</p>
   </div>
 </div>
 
-
-<div class="wrapper bg-light" style="margin-bottom: 3rem;">
-  <div class="container">
-    <div class="columns">
-      <div class="column sm-5">
-        <h3 class="title">
-          Grow your brand in the palm of your hand
-        </h3>
-      </div>
-      <div class="column sm-6 offset-md-1">
-        <div class="columns text-center">
-          <div class="column">
-            <span class="fa fa-facebook"></span>
-            <h4>100% Responsive</h4>
-            <p>Mobile first</p>
-          </div>
-          <div class="column">
-            <span class="fa fa-facebook"></span>
-            <h4>100% Responsive</h4>
-            <p>Mobile first</p>
-          </div>
-          <div class="column">
-            <span class="fa fa-facebook"></span>
-            <h4>100% Responsive</h4>
-            <p>Mobile first</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="wrapper">
-  <div class="container">
-    <div class="columns as-items-center">
-      <div class="column sm-6">        
-        <div class="card">
-  
-          <div class="card-body">
-            <h3 class="title-small">Installation</h3>
-            <p class="subtitle-small">When you only need to include Bootstrap’s compiled CSS or JS, you can use PetroniaCDN
-            </p>
-            <hr>
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># Install via npm</span>
-npm <span class="nb">install </span>petronia
-
-<span class="c"># Inject via jsdelivrCDN</span>
-https://cdn.jsdelivr.com/petronia/css/petronia.css
-
-<span class="c"># Download from Git Repo</span>
-https://github.com/suren/petronia/tree/master/css</code></pre></figure><a href="#" class=" as-link">NPM</a>
-            <a href="#" class="">CDN</a>
-            <a href="#" class="">Github</a>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="button as-primary">Go somewhere</a>
-          </div>
-        </div>   
-      </div>
-      <div class="column sm-6">        
-      <div class="card">
-  
-        <div class="card-body">
-          <h3 class="title-small">Usage</h3>
-          <p class="subtitle-small">When you only need to include Bootstrap’s compiled CSS or JS, you can use PetroniaCDN
-          </p>
-          <hr>
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># Step: 01 Add Petronia to project </span>
-&lt;<span class="nb">link </span><span class="nv">rel</span><span class="o">=</span><span class="s2">"stylesheet"</span> <span class="nv">href</span><span class="o">=</span><span class="s2">"/css/petronia.min.css"</span><span class="o">&gt;</span>
-
-<span class="c"># Step: 02 Create element Ex: button</span>
-&lt;button <span class="nv">class</span><span class="o">=</span><span class="s2">"button"</span><span class="o">&gt;</span>Button&lt;/button&gt;
-
-<span class="c"># Step: 03 Add styles using modifiers </span>
-&lt;button <span class="nv">class</span><span class="o">=</span><span class="s2">"button as-primary"</span><span class="o">&gt;</span>Button&lt;/button&gt;</code></pre></figure><a href="#" class=" as-link">Starter Template</a>
-          <a href="#" class="">Stories</a>
-        </div>
-        <div class="card-footer">
-          <a href="#" class="button as-secondary">Go somewhere</a>
-        </div>
-      </div>
-      </div>
-    </div>    
-  </div>
-</div>
-
-<div class="wrapper">
-  <div class="container">
-   <div class="text-center d-block">
-    <h3 class="title-small">Support Petronia </h3>
-    <p class="subtitle-small">When you only need to include Bootstrap’s compiled CSS or JS, you can use PetroniaCDN
-    </p>
-   </div>
-    <div class="columns as-items-center">
-      <div class="column sm-6">
-
-      </div>
-    </div>     
-  </div>     
-</div>     
-        
-</main>
-<footer class="bg-light pt-5x">
-    <div class="container">
-        <div class="columns">
-            <div class="column sm-5">
-                <p><b>Petronia</b> by <a href="#">Surendar Naredla</a></p>
-                <p>Source code licensed MIT. <br />
-                    Website content licensed CC BY-NC-SA 4.0.</p>
-            </div>
-            <div class="column sm-7">
-
-            </div>
-        </div>
-    </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script src="/assets/js/vendor/anchor.min.js"></script>
-<script src="/assets/js/vendor/clipboard.min.js"></script>
-<script src="/assets/js/docs.js"></script>
 </body>
 </html>
