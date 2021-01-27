@@ -2,7 +2,7 @@
  * Petronia Docs (https://petronia.org/)
  * Version: v1.0.0
  * Copyright 2020 Surendar Naredla
- * Licensed under MIT (https://petronia.org//LICENSE)
+ * Licensed under MIT (https://petronia.org/LICENSE)
  * Git repository (https://petronia.org/LICENSE)
  */
 .bd-example {
@@ -69,10 +69,32 @@
 
 .bd-columns .box {
   padding: 1rem;
-  background-color: #e2defa;
+  background-color: #cce0fd;
   border: 0;
-  color: #6c5ce7;
+  color: #0162f7;
   border-radius: .4rem;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.bd-hero .title-large {
+  font-size: 6.25rem;
+  font-weight: 900;
+}
+
+.bd-hero .subtitle-large {
+  font-weight: 400;
+}
+
+.bd-hero [data-tooltip]::before {
+  border-color: #EEF1F7 transparent transparent transparent;
+}
+
+.bd-hero [data-tooltip]::after {
+  background: #EEF1F7;
+  color: #242c33;
 }
 
 .bd-sidebar-menu {
@@ -217,7 +239,7 @@ main.bd-content > h3[id] {
   position: absolute;
   top: 0;
   left: 0;
-  fill: #edebfc;
+  fill: #e1ecfe;
   height: 112%;
   z-index: -1;
 }

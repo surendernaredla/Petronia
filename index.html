@@ -9,24 +9,24 @@
 <meta name="description" content="Documentation">
 <meta name="author" content="Surendar Naredla">
 <meta name="generator" content="Jekyll v4.0.1">
- 
+
 <title>Documentation - Petronia</title>
 
-<link rel="canonical" href="http://localhost:8001/">
+<link rel="canonical" href="http://localhost:5000/">
 
 <!-- Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost:8001/">
+<meta property="og:url" content="http://localhost:5000/">
 <meta property="og:title" content="Documentation">
 <meta property="og:description" content="Write an awesome description for your new site here.">
-<meta property="og:image" content="http://localhost:8001/docs/images/brand/favicon.png">
+<meta property="og:image" content="http://localhost:5000/docs/images/brand/favicon.png">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://localhost:8001/">
+<meta property="twitter:url" content="http://localhost:5000/">
 <meta property="twitter:title" content="Documentation">
 <meta property="twitter:description" content="Write an awesome description for your new site here.">
-<meta property="twitter:image" content="http://localhost:8001/docs/images/brand/favicon.png">
+<meta property="twitter:image" content="http://localhost:5000/docs/images/brand/favicon.png">
 
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
@@ -45,17 +45,18 @@
 <!-- Petronia Custom Docs CSS -->
 <link rel="stylesheet" href="/assets/css/petronia-docs.css">
 
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Nunito+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<nav class="navbar as-dark as-fixed-top bg-primary navbar-collapse" role="navigation" aria-label="main navigation">
+<nav class="navbar as-light border-solid-bottom py-3x shadow-2x as-border-light as-fixed-top bg-white navbar-collapse" role="navigation" aria-label="main navigation">
     <div class="container">
         <a href="/" class="navbar-brand">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="20px" height="auto" viewBox="0 0 356 512" style="enable-background:new 0 0 356 512;" xml:space="preserve">
-<path id="XMLID_32_" style="fill:#ffffff;" d="M178-0.1C83.3-0.1,6.2,76.9,6.2,171.6c0,0,0,0,0,0.1v340.4L120,333.3
+<path id="XMLID_32_" style="fill:#6d13ff;" d="M178-0.1C83.3-0.1,6.2,76.9,6.2,171.6c0,0,0,0,0,0.1v340.4L120,333.3
 	c18.1,6.5,37.7,10.1,58,10.1c94.7,0,171.8-77.1,171.8-171.8S272.7-0.1,178-0.1z M178,294.3c-67.7,0-122.7-55-122.7-122.7
     S110.3,49,178,49c51.1,0,95.1,31.5,113.5,76l36.8,21.3l-28,16.2c0.2,3,0.4,6.1,0.4,9.2C300.7,239.3,245.7,294.3,178,294.3z"/>
 </svg> <span>etronia</span>
@@ -104,21 +105,18 @@
                 <li><a class="navbar-link" href="#">Open</a></li>
                 <li><a class="navbar-link" href="#">Github</a></li>
                 <li class="buttons">
-                    <a href="#" class="button as-tint-primary" style="height: 36px;"><span class="fa fa-gift"></span></a>
-                    <a href="#" class="button as-warning">Download</a>
+                    <a href="#" class="button as-tint-primary as-large"><span class="fa fa-gift"></span></a>
+                    <a href="#" class="button as-primary as-large">Download</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>  
 <main>
-    <div class="wrapper as-items-center as-cover-full" style="position: relative;padding: 6rem 0 8rem;">
+    <div class="wrapper as-items-center as-cover-full bd-hero" style="position: relative;padding: 6rem 0 8rem;">
   <div class="container">
     <div class="columns as-justify-center">
       <div class="column sm-6 text-center">
-        <div class="brand-intro">
-          <img src="./assets/images/logos/logo-fpicon.svg" alt="">
-        </div>
         <h3 class="title-large">Petronia</h3>
         <p class="subtitle">A Modern CSS Framework for faster and easier web development.</p>
         <div class="bd-snippet bd-intro">
@@ -127,8 +125,11 @@
           </div>
           <figure class="highlight"><pre><code class="language-sh" data-lang="sh">npm <span class="nb">install </span>petronia</code></pre></figure></div>
         <div class="buttons">
-          <button class="button as-outline-secondary as-large">Get Started</button>
+          <button class="button as-light as-large">Get Started</button>
           <button class="button as-primary as-large">Download</button>
+        </div>
+        <div>
+          <small class="as-text-secondary mt-2">Integrates in any JS environment</small>
         </div>
       </div>
     </div>
@@ -175,7 +176,8 @@
   
           <div class="card-body">
             <h3 class="title-small">Installation</h3>
-            <p class="subtitle-small">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <p class="subtitle-small">When you only need to include Bootstrap’s compiled CSS or JS, you can use PetroniaCDN
+            </p>
             <hr>
 <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># Install via npm</span>
 npm <span class="nb">install </span>petronia
@@ -198,7 +200,8 @@ https://github.com/suren/petronia/tree/master/css</code></pre></figure><a href="
   
         <div class="card-body">
           <h3 class="title-small">Usage</h3>
-          <p class="subtitle-small">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          <p class="subtitle-small">When you only need to include Bootstrap’s compiled CSS or JS, you can use PetroniaCDN
+          </p>
           <hr>
 <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># Step: 01 Add Petronia to project </span>
 &lt;<span class="nb">link </span><span class="nv">rel</span><span class="o">=</span><span class="s2">"stylesheet"</span> <span class="nv">href</span><span class="o">=</span><span class="s2">"/css/petronia.min.css"</span><span class="o">&gt;</span>
@@ -223,7 +226,8 @@ https://github.com/suren/petronia/tree/master/css</code></pre></figure><a href="
   <div class="container">
    <div class="text-center d-block">
     <h3 class="title-small">Support Petronia </h3>
-    <p class="subtitle-small">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+    <p class="subtitle-small">When you only need to include Bootstrap’s compiled CSS or JS, you can use PetroniaCDN
+    </p>
    </div>
     <div class="columns as-items-center">
       <div class="column sm-6">

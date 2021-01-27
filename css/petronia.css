@@ -543,21 +543,21 @@ figcaption {
 }
 
 .alert.as-primary {
-  color: #383078;
-  background: #e2defa;
+  color: #013380;
+  background: #cce0fd;
 }
 
 .alert.as-primary a {
-  color: #383078;
+  color: #013380;
 }
 
 .alert.as-soft-primary {
-  color: #6c5ce7;
-  border: 1px solid #6c5ce7;
+  color: #0162f7;
+  border: 1px solid #0162f7;
 }
 
 .alert.as-soft-primary a {
-  color: #6c5ce7;
+  color: #0162f7;
 }
 
 .alert.as-secondary {
@@ -753,12 +753,12 @@ figcaption {
 
 .avatar.as-label.as-primary {
   color: #fff;
-  background: #6c5ce7;
+  background: #0162f7;
 }
 
 .avatar.as-label.as-tint-primary {
-  color: #6c5ce7;
-  background: #e2defa;
+  color: #0162f7;
+  background: #cce0fd;
 }
 
 .avatar.as-label.as-secondary {
@@ -873,12 +873,12 @@ figcaption {
 
 .badge.as-primary {
   color: #fff;
-  background-color: #6c5ce7;
+  background-color: #0162f7;
 }
 
 .badge.as-tint-primary {
-  color: #5b4dc2;
-  background-color: #e2defa;
+  color: #0152cf;
+  background-color: #cce0fd;
 }
 
 .badge.as-secondary {
@@ -1105,65 +1105,65 @@ figcaption {
 
 .button.as-primary {
   color: #fff;
-  background-color: #6c5ce7;
+  background-color: #0162f7;
 }
 
 .button.as-primary:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.188rem rgba(108, 92, 231, 0.35);
-  background-color: #5441e3;
+  box-shadow: 0 0 0 0.188rem rgba(1, 98, 247, 0.35);
+  background-color: #0156d9;
 }
 
 .button.as-primary:active, .button.as-primary.active {
   color: #fff;
-  background-color: #5441e3;
+  background-color: #0156d9;
 }
 
 .button.as-primary:hover, .button.as-primary.as-hover {
   color: #fff;
-  background-color: #5441e3;
+  background-color: #0156d9;
 }
 
 .button.as-outline-primary {
-  color: #6c5ce7;
+  color: #0162f7;
   background-color: transparent;
-  border-color: #6c5ce7;
+  border-color: #0162f7;
 }
 
 .button.as-outline-primary:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.188rem rgba(108, 92, 231, 0.35);
+  box-shadow: 0 0 0 0.188rem rgba(1, 98, 247, 0.35);
 }
 
 .button.as-outline-primary:active, .button.as-outline-primary.active {
   color: #fff;
-  background-color: #6c5ce7;
+  background-color: #0162f7;
 }
 
 .button.as-outline-primary:hover, .button.as-outline-primary.as-hover {
   color: #fff;
-  background-color: #6c5ce7;
+  background-color: #0162f7;
 }
 
 .button.as-tint-primary {
-  color: #5b4dc2;
-  background-color: #edebfc;
+  color: #0152cf;
+  background-color: #e1ecfe;
   border-color: transparent;
 }
 
 .button.as-tint-primary:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.188rem rgba(108, 92, 231, 0.25);
+  box-shadow: 0 0 0 0.188rem rgba(1, 98, 247, 0.25);
 }
 
 .button.as-tint-primary:active, .button.as-tint-primary.active {
   color: #fff;
-  background-color: #6c5ce7;
+  background-color: #0162f7;
 }
 
 .button.as-tint-primary:hover, .button.as-tint-primary.as-hover {
-  color: #5b4dc2;
-  background-color: #e2defa;
+  color: #0152cf;
+  background-color: #cce0fd;
 }
 
 .button.as-secondary {
@@ -2149,7 +2149,7 @@ html.navbar-fixed-top {
 }
 
 .page-link.active {
-  background-color: #6c5ce7;
+  background-color: #0162f7;
   color: #fff;
 }
 
@@ -2186,15 +2186,15 @@ html.navbar-fixed-top {
 }
 
 .progress::-webkit-progress-value {
-  background-color: #6c5ce7;
+  background-color: #0162f7;
 }
 
 .progress::-moz-progress-bar {
-  background-color: #6c5ce7;
+  background-color: #0162f7;
 }
 
 .progress::-ms-fill {
-  background-color: #6c5ce7;
+  background-color: #0162f7;
   border: none;
 }
 
@@ -2203,7 +2203,7 @@ html.navbar-fixed-top {
   display: inline-flex;
   -ms-flex-align: center;
       align-items: center;
-  background-color: #6c5ce7;
+  background-color: #0162f7;
   -ms-flex-pack: center;
       justify-content: center;
   white-space: nowrap;
@@ -2623,31 +2623,31 @@ select[multiple] option {
 
 .checkbox.as-primary input:checked ~ label::before,
 .checkbox.as-primary input.checked ~ label::before {
-  border-color: #6c5ce7;
-  background-color: #6c5ce7;
+  border-color: #0162f7;
+  background-color: #0162f7;
 }
 
 .checkbox.as-primary input:focus ~ label::before,
 .checkbox.as-primary input.focus ~ label::before {
-  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.35);
-  border-color: #6c5ce7;
+  box-shadow: 0 0 0 3px rgba(1, 98, 247, 0.35);
+  border-color: #0162f7;
 }
 
 .checkbox.as-primary-outline input:checked ~ label::after,
 .checkbox.as-primary-outline input.checked ~ label::after {
-  border-color: #6c5ce7;
+  border-color: #0162f7;
 }
 
 .checkbox.as-primary-outline input:checked ~ label::before,
 .checkbox.as-primary-outline input.checked ~ label::before {
-  border-color: #6c5ce7;
+  border-color: #0162f7;
   background-color: transparent;
 }
 
 .checkbox.as-primary-outline input:focus ~ label::before,
 .checkbox.as-primary-outline input.focus ~ label::before {
-  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.35);
-  border-color: #6c5ce7;
+  box-shadow: 0 0 0 3px rgba(1, 98, 247, 0.35);
+  border-color: #0162f7;
 }
 
 .checkbox.as-secondary input:checked ~ label::after,
@@ -2957,30 +2957,30 @@ select[multiple] option {
 
 .radio.as-primary input.checked ~ label::before,
 .radio.as-primary input:checked ~ label::before {
-  border-color: #6c5ce7;
-  background-color: #6c5ce7;
+  border-color: #0162f7;
+  background-color: #0162f7;
 }
 
 .radio.as-primary input.focus ~ label::before,
 .radio.as-primary input:focus ~ label::before {
-  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.35);
-  border-color: #6c5ce7;
+  box-shadow: 0 0 0 3px rgba(1, 98, 247, 0.35);
+  border-color: #0162f7;
 }
 
 .radio.as-primary-outline input.checked ~ label::after,
 .radio.as-primary-outline input:checked ~ label::after {
-  background-color: #6c5ce7;
+  background-color: #0162f7;
 }
 
 .radio.as-primary-outline input.checked ~ label::before,
 .radio.as-primary-outline input:checked ~ label::before {
-  border-color: #6c5ce7;
+  border-color: #0162f7;
 }
 
 .radio.as-primary-outline input.focus ~ label::before,
 .radio.as-primary-outline input:focus ~ label::before {
-  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.35);
-  border-color: #6c5ce7;
+  box-shadow: 0 0 0 3px rgba(1, 98, 247, 0.35);
+  border-color: #0162f7;
 }
 
 .radio.as-secondary input.checked ~ label::after,
@@ -3278,18 +3278,18 @@ select[multiple] option {
 }
 
 .file.as-primary label {
-  border-color: #6c5ce7;
+  border-color: #0162f7;
 }
 
 .file.as-primary label::after {
   color: #fff;
-  background: #6c5ce7;
-  border-color: #6c5ce7;
+  background: #0162f7;
+  border-color: #0162f7;
 }
 
 .file.as-primary input[type="file"]:focus ~ label {
-  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.25);
-  border-color: #6c5ce7;
+  box-shadow: 0 0 0 3px rgba(1, 98, 247, 0.25);
+  border-color: #0162f7;
 }
 
 .file.as-secondary label {
@@ -3461,7 +3461,7 @@ select[multiple] option {
 }
 
 .range::-ms-fill-upper {
-  background-color: #6c5ce7;
+  background-color: #0162f7;
   border-radius: 3px;
 }
 
@@ -4607,7 +4607,7 @@ select[multiple] option {
 }
 
 .as-border-primary {
-  border-color: #6c5ce7 !important;
+  border-color: #0162f7 !important;
 }
 
 .as-border-secondary {
@@ -4701,15 +4701,15 @@ select[multiple] option {
 }
 
 .as-text-primary {
-  color: #6c5ce7 !important;
+  color: #0162f7 !important;
 }
 
 .bg-primary {
-  background-color: #6c5ce7 !important;
+  background-color: #0162f7 !important;
 }
 
 .bg-tint-primary {
-  background-color: #e2defa !important;
+  background-color: #cce0fd !important;
 }
 
 .as-text-secondary {
@@ -5356,6 +5356,16 @@ select[multiple] option {
   padding-left: 0 !important;
 }
 
+.px--0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .m-1x {
   margin: 0.25rem !important;
 }
@@ -5410,6 +5420,16 @@ select[multiple] option {
 
 .pl-1x {
   padding-left: 0.25rem !important;
+}
+
+.px--1x {
+  padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important;
+}
+
+.py-1x {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
 }
 
 .m-2x {
@@ -5468,6 +5488,16 @@ select[multiple] option {
   padding-left: 0.5rem !important;
 }
 
+.px--2x {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.py-2x {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
 .m-3x {
   margin: 0.75rem !important;
 }
@@ -5522,6 +5552,16 @@ select[multiple] option {
 
 .pl-3x {
   padding-left: 0.75rem !important;
+}
+
+.px--3x {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+.py-3x {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
 }
 
 .m-4x {
@@ -5580,6 +5620,16 @@ select[multiple] option {
   padding-left: 1rem !important;
 }
 
+.px--4x {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.py-4x {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
 .m-5x {
   margin: 1.25rem !important;
 }
@@ -5634,6 +5684,16 @@ select[multiple] option {
 
 .pl-5x {
   padding-left: 1.25rem !important;
+}
+
+.px--5x {
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+}
+
+.py-5x {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
 }
 
 .text-center {

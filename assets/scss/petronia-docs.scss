@@ -2,7 +2,7 @@
  * Petronia Docs (https://petronia.org/)
  * Version: v1.0.0
  * Copyright 2020 Surendar Naredla
- * Licensed under MIT (https://petronia.org//LICENSE)
+ * Licensed under MIT (https://petronia.org/LICENSE)
  * Git repository (https://petronia.org/LICENSE)
  */
  
@@ -14,6 +14,23 @@
 @import "toc";
 @import "layout";
 
+body{
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+.bd-hero .title-large {
+  font-size: 6.25rem;
+  font-weight: 900;
+}
+.bd-hero .subtitle-large {
+  font-weight: 400;
+}
+.bd-hero  [data-tooltip]::before {
+  border-color: $light transparent transparent transparent;
+}
+.bd-hero [data-tooltip]::after {
+  background: $light;
+  color: $dark;
+}
 .bd-sidebar-menu {
   position: fixed;
   height: calc(100vh - 72px);
